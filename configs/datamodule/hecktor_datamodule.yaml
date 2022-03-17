@@ -1,0 +1,9 @@
+_target_: src.datamodules.hecktor_datamodule.HECKTORDataModule
+
+
+data_dir: "/home/ikboljonsobirov/hecktor/Hecktor 2021/hecktor_nii_resampled"
+batch_size: 8
+num_workers: 12
+pin_memory: True
+Fold: 1
+

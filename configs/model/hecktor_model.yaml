@@ -1,0 +1,6 @@
+_target_: src.models.mim_module.MimSuperModule
+
+model: "unetr"
+
+lr : 1e-3
+weight_decay: 1e-5
