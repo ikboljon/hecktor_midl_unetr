@@ -7,11 +7,12 @@
 <a href="https://hydra.cc/"><img alt="Config: Hydra" src="https://img.shields.io/badge/Config-Hydra-89b8cd"></a>
 <a href="https://github.com/ashleve/lightning-hydra-template"><img alt="Template" src="https://img.shields.io/badge/-Lightning--Hydra--Template-017F2F?style=flat&logo=github&labelColor=gray"></a><br>
 [![Paper](http://img.shields.io/badge/paper-arxiv.1001.2234-B31B1B.svg)](https://arxiv.org/abs/2201.06251)
-[![Conference](http://img.shields.io/badge/AnyConference-year-4b44ce.svg)](https://www.midl.io/)
+[![Conference](https://img.shields.io/badge/Conference-MIDL-informational)](https://www.midl.io/)
+[![Dataset](https://img.shields.io/badge/Dataset-HECKTOR-blue)](https://www.aicrowd.com/challenges/miccai-2021-hecktor)
  
 _Ikboljon Sobirov, Otabek Nazarov, Hussain Alasmawi, Mohammad Yaqub_
  
- The paper can be found on [OpenReview](https://openreview.net/forum?id=reIO5WfgbLd).
+ The paper and reviews can be found on [OpenReview](https://openreview.net/forum?id=reIO5WfgbLd).
 
 </div>
 
@@ -22,8 +23,9 @@ _Ikboljon Sobirov, Otabek Nazarov, Hussain Alasmawi, Mohammad Yaqub_
 This work was done to analyze transformers in the task of head and neck tumor segmentation. It was accepted to MIDL 2022.
 
 ## Description
+**Abstract**
 
-What it does
+Cancer is one of the leading causes of death worldwide, and head and neck (H&N) cancer is amongst the most prevalent types. Positron emission tomography and computed tomography are used to detect and segment the tumor region. Clinically, tumor segmentation is extensively time-consuming and prone to error. Machine learning, and deep learning in particular, can assist to automate this process, yielding results as accurate as the results of a clinician. In this research study, we develop a vision transformers-based method to automatically delineate H\&N tumor, and compare its results to leading convolutional neural network (CNN)-based models. We use multi-modal data of CT and PET scans to do this task. We show that the selected transformer-based model can achieve results slightly below CNN-based ones. With cross validation, the model achieves a mean dice similarity coefficient of 0.736, mean precision of 0.766 and mean recall of 0.766. This is only 0.021 less than the 2020 competition winning model in terms of the DSC score. On the testing set, the model performs similarly, with DSC of 0.736, precision of 0.773, and recall of 0.760, which is only 0.023 lower in DSC than the 2020 competition winning model. This indicates that the exploration of transformer-based models is a promising research area. 
 
 ## How to run
 
